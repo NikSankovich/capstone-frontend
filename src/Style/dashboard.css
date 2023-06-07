@@ -1,5 +1,5 @@
-.eventContainer{
-    display:flex;
+.eventContainer {
+    display: flex;
     align-items: center;
     gap: 1rem;
     padding-left: 2rem;
@@ -7,26 +7,25 @@
     margin-bottom: 1rem;
 }
 
-.eventInfo{
+.eventInfo {
     /* margin-bottom: 0; */
 }
-.eventPic{
-    width:  100px;
+
+.eventPic {
+    width: 100px;
     height: 100px;
     object-fit: cover;
 }
 
-.Dashboard{
-    display:flex;
+.Dashboard {
+    display: flex;
     flex-direction: column;
     align-items: center;
 
 }
 
-.parentContainer:nth-child(odd){
-background-color: rgb(163, 150, 150);
-}
 
-.eventContainer:nth-child(odd){
-    background-color: rgb(162, 159, 159);
+
+.eventContainer:nth-child(odd) {
+    background-color: #eeeeee;
 }
