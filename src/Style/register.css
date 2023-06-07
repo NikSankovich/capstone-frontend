@@ -1,0 +1,12 @@
+.Register {
+    height: 100vh;
+    background-image: url("/austinpic1.jpg");
+    /* object-fit: contain; */
+    object-position: bottom;
+    width: 100vw;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 7rem;
+    line-height: 3rem;
+}
